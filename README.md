@@ -2,4 +2,4 @@
 
 ## Description
 
-Just updated version of gulp
+Just updated version of `gulp`
