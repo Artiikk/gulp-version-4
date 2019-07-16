@@ -1,4 +1,4 @@
-# gulp-4
+# Gulp 4 version
 
 ## Description
 
