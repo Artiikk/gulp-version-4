@@ -45,7 +45,7 @@ gulp.task('scss', () => gulp.src([
   .pipe(browserSync.stream())
 );
 
-gulp.task('js', () => gulp.src([`${src_folder}js/**/*.js`], {
+gulp.task('js', () => gulp.src([`${src_folder}js/main.js`], {
     since: gulp.lastRun('js')
   })
   .pipe(plumber())
@@ -95,7 +95,7 @@ gulp.task('serve', () => browserSync.init({
     baseDir: ['dist']
   },
   port: 3000,
-  open: false,
+  open: true,
 }));
 
 gulp.task('watch', () => {
